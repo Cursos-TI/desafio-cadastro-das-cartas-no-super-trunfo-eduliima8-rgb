@@ -31,7 +31,7 @@ int main() {
     float pib2;
     int pontos_turisticos2;
 
-    // Entrada da Carta 1
+    // Cadastro da Carta 1
     printf("\n=== Cadastro da Carta 1 ===\n");
     printf("Digite a letra do estado (A-H): ");
     scanf(" %c", &estado1);
@@ -54,7 +54,7 @@ int main() {
     printf("Digite a quantidade de pontos turísticos: ");
     scanf("%d", &pontos_turisticos1);
 
-    // Entrada da Carta 2
+    // Cadastro da Carta 2
     printf("\n=== Cadastro da Carta 2 ===\n");
     printf("Digite a letra do estado (A-H): ");
     scanf(" %c", &estado2);
@@ -78,7 +78,7 @@ int main() {
     scanf("%d", &pontos_turisticos2);
 
     // Saída - Exibir Carta 1
-    printf("\n--- Carta 1 ---\n");
+    printf("\n=== Carta 1 ===\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nome1);
@@ -88,7 +88,7 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
 
     // Saída - Exibir Carta 2
-    printf("\n--- Carta 2 ---\n");
+    printf("\n=== Carta 2 ===\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nome2);
@@ -99,3 +99,4 @@ int main() {
 
     return 0;
 }
+
