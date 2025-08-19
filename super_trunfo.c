@@ -1,6 +1,18 @@
 #include <stdio.h>
 
 int main() {
+    //Programa para cadastrar Duas cartas de cidades (estilo super trunfo)
+
+    char estado; //Uma letra de A a H representado um dos oitos estados
+    char codigo[10];//um codigo de 3 caracteres, sendo a primeira letra do estado e dois digitos de 01 a 04
+    char nome[30];//nome da cidade
+    int população; //populaçao da cidade
+    float area;//area da cidade em km
+    float pib; //pib da cidade
+    int pontos_turisticos;//quantidade de pontos turisticos da cidade
+
+
+    
     // Carta 1 - São Paulo
     char estado1[2] = "A";
     char codigo1[10] = "A01";
