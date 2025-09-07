@@ -6,17 +6,17 @@
 // 3 = PIB
 // 4 = Densidade Populacional
 // 5 = PIB per capita
-#define ATRIBUTO 1   // <<< troque esse número para mudar o atributo comparado
+#define ATRIBUTO 1   // <<< troque esse número para mudar o atributo comparado ( 1 a 5)
 
 int main(void) {
     /* ----------------- CARTA 1 ----------------- */
-    char estado1[3];
-    char codigo1[10];
-    char nome1[30];
-    int  populacao1;
-    float area1;
-    float pib1;
-    int  pontos_turisticos1;
+    char estado1[3]; // Uma letra de A a H representando o estado   
+    char codigo1[10]; // codigo de 3 caracteres , sendo a primeira letra do estado e dois digitos de 01 a 04
+    char nome1[30]; // nome da cidade   
+    int  populacao1; //populaçao da cidade  
+    float area1; // area da cidade em km2
+    float pib1; // pib da cidade em bilhoes
+    int  pontos_turisticos1; // numero de pontos turisticos da cidade
 
     /* ----------------- CARTA 2 ----------------- */
     char estado2[3];
@@ -32,7 +32,7 @@ int main(void) {
     printf("Estado (A-H): ");
     scanf(" %2s", estado1);
 
-    printf("Código da carta: ");
+    printf("Código da carta ( A01- H04): ");
     scanf(" %9s", codigo1);
 
     printf("Nome da cidade: ");
@@ -55,7 +55,7 @@ int main(void) {
     printf("Estado (A-H): ");
     scanf(" %2s", estado2);
 
-    printf("Código da carta: ");
+    printf("Código da carta ( A01- H04): ");
     scanf(" %9s", codigo2);
 
     printf("Nome da cidade: ");
